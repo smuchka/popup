@@ -14,13 +14,6 @@
 	<div class="main">
 		<span class="header">Всплывающее окно.</span>
 		<div class="block">
-			<br/><br/><br/><br/>
-			<span class="btn floatleft">Click!</span>
-			<span class="btn floatright">Click!</span>
-			<br/><br/><br/><br/><br/><br/><br/><br/>
-			<br/><br/><br/><br/><br/><br/><br/><br/>
-			<br/>
-			<br/><br/><br/><br/>
 			<span class="btn floatleft">Click!</span>
 			<span class="btn floatright">Click!</span>
 			<br/><br/><br/><br/><br/><br/><br/><br/>
