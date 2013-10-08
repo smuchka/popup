@@ -1,0 +1,32 @@
+/*@import url(reset.css);*/
+/*************************************************************************************/
+/* всплывающее окно */
+div.popup{
+    z-index:9999;
+    position:absolute;
+    background:#fff;
+    border:2px solid #b7b7b7;
+    -moz-box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Для Firefox */
+    -webkit-box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Для Safari и Chrome */
+    box-shadow: 5px 5px 10px  rgba(0,0,0,0.5); /* Параметры тени */
+    text-align:left;
+    padding: 5px;
+    margin: 0px;
+}
+div.popup span{color:#000;margin:0;float:none;}
+div.popup div.listcontReq{/*margin:5px;*/min-width:180px;/*изменение длинны*/}
+div.popup div.listcontReq div.content span {color: #c4c4c4;}
+/* панель кнопочек */
+div.listcontReq div.manageReq {float:left;width:100%;height:30px;padding:5px 0 5px 0;}
+div.listcontReq div.manageReq a{float:right;height:30px;}
+/* СТИЛИ DEBUG */
+/*div.debug { font-size: 12px;}*/
+div.debug.pD {z-index:7777; position:absolute !important; background:grey; width:60px; height:20px;}
+div.debug.pD.top {padding: 40px 0 0 0;}
+div.debug.pD.bottom {padding: 0 0 40px 0;}
+div.debug.ABD {z-index:8888; position:absolute !important; background:aqua; width:40px; height:20px;}
+div.debug.ABD.top {padding: 20px 0 0 0;}
+div.debug.ABD.bottom {padding: 0 0 20px 0;}
+div.debug.pDA {z-index:9999; position:absolute !important; background:red; width:20px; height:20px;}
+div.debug.pDA.top, div.pDA.bottom {padding: 0;}
+/*************************************************************************************/

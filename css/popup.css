@@ -1,0 +1,45 @@
+/*************************************************************************************/
+/*		Добавить в контакты		*/
+div.friendsCont{}
+.friendsCont input {margin:3px 3px 3px 0px;}
+.friendsCont a{color:#8eb4e3;}   
+
+.friendsCont ul{padding:0;margin:0;}
+.friendsCont li{list-style:none;float:none;color:#8eb4e3;}
+
+/*.div.listcont{margin:5px;min-width:180px;изменение длинны}*/
+div.actionSelect{width:180px;height:20px;}
+.actionSelect span{color:#8eb4e3;width:100%;margin:0;}
+.actionSelect span:hover{color:#6a9dda;background:rgba(134,175,225,0.3);}
+
+div.groups{width:100%;}
+.groups span{color:#b7b7b7;margin:0 0 0 10px;width:100%;}
+.groups a{color:#8eb4e3;margin:0 3px 0 3px;}
+
+div.addGroup{height:20px;}
+.addGroup input{width:120px;border:1px solid #b7b7b7;box-shadow:none;float:left;height:100%;border-radius:3px;}
+.addGroup input:focus{border:1px solid #b7b7b7;box-shadow:none;}
+.addGroup img{margin:4px 0 0 5px;height:100%;width:20px;float:left;}
+
+div.toAdd{margin: 0 10px 0 10px;height:30px;background: url("../img/like.png") left center no-repeat;background-size: 30px 30px;}
+div.toAdd span{color:#8eb4e3;margin:10px 0 0 33px;position:relative;top:5px;}
+div.notToAdd{margin: 0 10px 0 10px;height:100%;background: url("../img/like2.png") left center no-repeat;background-size: 30px 30px;}
+div.notToAdd span{color:#8eb4e3;margin:10px 0 0 33px;width:90px;position:relative;top:5px;}
+/*************************************************************************************/
+/*		Результаты теста \ Домашнее задание	*/
+div.journalCont{!margin:5px 5px 0 5px;!float: left;max-width: 500px;}
+.journalCont a{color:#8eb4e3;text-decoration: none;}
+
+div.journalContItem,div.journalContItemT{width:100%;margin-bottom:2.5px;}
+div.journalContItemT{border-bottom: 1px solid #b7b7b7;}
+div.workType{ height:100%; margin-right: 5px; min-width: 30px; display:inline-table;}
+.workType span{color:#b7b7b7;}
+div.workDesc,div.workDescT{max-width:92%;display:inline-table;height: 100%;/*width:100px;*/margin-bottom: 2.5px;} /* 300px */
+div.workDescT{margin:0;}
+div.testRes{margin:0 0 2.5px 40px;}
+/*************************************************************************************/
+/*              */
+/*************************************************************************************/
+/*				*/
+/*************************************************************************************/
+/*				*/

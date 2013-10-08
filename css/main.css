@@ -1,0 +1,28 @@
+.floatleft {float: left;}
+.floatright {float: right;}
+body {
+	/*background-color: #ccc;*/
+	}
+
+span {
+	font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+span.header {font-size: 25px;}
+
+
+span.btn {
+
+	margin: 5px; 
+	border: 5px solid red; 
+	padding: 5px;
+}
+div.block{
+	display: inline-block;
+	position: relative;
+	right: 3px;
+	/*float: right;*/
+	width: 600px;
+	height: 2850px;
+	background-color: #ccc;
+	float: none;
+}

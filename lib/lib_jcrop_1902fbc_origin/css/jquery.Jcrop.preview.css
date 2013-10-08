@@ -1,0 +1,48 @@
+/* Apply these styles only when #preview-pane has
+   been placed within the Jcrop widget */
+#imgcropcont  {/*
+	display: block;
+	position: absolute;*/
+	padding: 5px;
+	background-color: white;
+	width: 570px;
+	/*top:400px;*/
+	/*float: left;*/
+
+	-webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+
+}
+.jcrop-holder #preview-pane-avatar  {
+	display: block;
+	position: absolute;
+	z-index: 2000;
+	top: -31px;
+	right: -230px;
+	/*bottom: -285px;*/
+/*	float: right;
+	display: block;
+	position: relative;
+	z-index: 2000;
+	width: 205px;
+	top: 52px;
+	left: 600px;
+	*/
+	padding: 5px;
+	background-color: white;
+
+	-webkit-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+
+#preview-pane-avatar .preview-container {
+	width: 205px;
+	height: 285px;
+	overflow: hidden;
+}
